@@ -1,0 +1,1 @@
+We omit some spherical harmonic coefficients due to size constraints.

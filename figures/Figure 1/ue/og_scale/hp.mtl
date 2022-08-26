@@ -1,0 +1,4 @@
+newmtl (null)
+bsdf diffuse
+map_Kd hp_kd.png
+bump hp_n.png

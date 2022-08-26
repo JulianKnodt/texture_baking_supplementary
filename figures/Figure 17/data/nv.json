@@ -1,0 +1,22 @@
+{
+    "camera_eye": [0.5, 0.0, 3.0],
+    "camera_up" : [0.0, 1.0, 0.0],
+
+    "iter": 5000,
+    "tex_only_iter": 1000,
+
+    "save_interval": 500,
+
+    "init_texture_kind": "gray",
+
+    "texture_res": [256, 256],
+    "train_res": 512,
+    "batch": 8,
+
+    "learning_rate": 8e-3,
+
+    "root_out": "nv",
+
+    "opt_train": [],
+    "skip_train": ["ks", "position"]
+}

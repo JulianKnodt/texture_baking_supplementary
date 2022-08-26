@@ -1,0 +1,10 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl None
+bsdf diffuse
+map_Kd bricks2.jpg
+depth bricks2_disp.jpg
+bump new_normal.jpg
+Ks 0.8 0.8 0.8
+plx parallax

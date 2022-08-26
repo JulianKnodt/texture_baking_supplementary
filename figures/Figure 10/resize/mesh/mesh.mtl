@@ -1,0 +1,5 @@
+newmtl material_0
+bsdf   diffuse
+map_Kd texture_kd.png
+map_Ks texture_ks.png
+bump texture_n.png

@@ -1,0 +1,27 @@
+{
+    "camera_eye": [0.5, 0.0, 3.0],
+    "camera_up" : [0.0, 1.0, 0.0],
+
+    "iter": 10000,
+    "tex_only_iter": 1000,
+
+    "init_texture_kind": "gray",
+
+    "texture_res": [256, 256],
+    "train_res": 512,
+    "batch": 4,
+
+    "learning_rate": 8e-3,
+
+    "skip_uv_iter": 0.05,
+    "uv_init_bound": 0.5,
+    "ipc_weight": 1,
+    "sym_dirichlet_weight": 1,
+    "uv_opt_freq": 1,
+    "min_sym_dirichlet_img_loss": 1,
+    "per_tri_img_loss_weight": 50,
+
+    "change_uv_bound": true,
+    "opt_train": ["uv"],
+    "skip_train": ["ks", "position"]
+}
